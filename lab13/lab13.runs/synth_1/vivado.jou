@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Dec  8 16:28:55 2017
+# Process ID: 15081
+# Current directory: /nfs/nfs7/home/huang238/lab13/lab13.runs/synth_1
+# Command line: vivado -log final_project.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source final_project.tcl
+# Log file: /nfs/nfs7/home/huang238/lab13/lab13.runs/synth_1/final_project.vds
+# Journal file: /nfs/nfs7/home/huang238/lab13/lab13.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source final_project.tcl -notrace

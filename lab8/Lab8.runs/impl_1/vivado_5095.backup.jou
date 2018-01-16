@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 19 20:36:18 2017
+# Process ID: 5095
+# Current directory: /nfs/nfs7/home/huang238/Lab8/Lab8.runs/impl_1
+# Command line: vivado -log display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source display.tcl -notrace
+# Log file: /nfs/nfs7/home/huang238/Lab8/Lab8.runs/impl_1/display.vdi
+# Journal file: /nfs/nfs7/home/huang238/Lab8/Lab8.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source display.tcl -notrace

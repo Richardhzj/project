@@ -1,0 +1,139 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 29922
+License: Customer
+
+Current time: 	11/2/17 3:52:43 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Red Hat Enterprise Linux Workstation release 7.4 (Maipo)
+OS Version: 3.10.0-693.5.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 175 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	huang238
+User home directory: /nfs/nfs7/home/huang238
+User working directory: /nfs/nfs7/home/huang238
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado
+HDI_APPROOT: /l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2
+RDI_DATADIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data
+RDI_BINDIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/bin
+
+User preferences location: /u/huang238/.Xilinx/Vivado
+Vivado preferences directory: /u/huang238/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /nfs/nfs7/home/huang238/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-29922-basalt.soic.indiana.edu
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,921 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 42 MB (+41101kb) [00:00:09]
+// [Engine Memory]: 4,921 MB (+5008599kb) [00:00:09]
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 50 MB (+6893kb) [00:00:12]
+// g:g (cg:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,037 MB. GUI used memory: 30 MB. Current time: 11/2/17 3:52:46 PM EDT
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "lab11"); // X:JTextField (JPanel:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// Elapsed time: 74 seconds
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", "xc7a35ticpg236-1L"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7a35ticpg236-1L ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; -40 ; 100 ; 100 ; I ; 0.92 ; 0.92 ; 0.98", 0, "236", 1); // ah:r (JViewport:JComponent, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7a35ticpg236-1L ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; -40 ; 100 ; 100 ; I ; 0.92 ; 0.92 ; 0.98", 0, "236", 1, false, false, false, false, true); // ah:r (JViewport:JComponent, g:g) - Double Click
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project lab11 /nfs/nfs7/home/huang238/lab11 -part xc7a35ticpg236-1L 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+3742kb) [00:01:42]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 92 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 64 MB (+4906kb) [00:01:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,063 MB. GUI used memory: 35 MB. Current time: 11/2/17 3:54:21 PM EDT
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (C:JPanel, c:g)
+// F:p (c:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "main"); // X:JTextField (JPanel:JComponent, F:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:p)
+// Tcl Command: 'file mkdir /nfs/nfs7/home/huang238/lab11/lab11.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F:p (c:g)
+// Tcl Message: file mkdir /nfs/nfs7/home/huang238/lab11/lab11.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// Tcl Message: close [ open /nfs/nfs7/home/huang238/lab11/lab11.srcs/sources_1/new/main.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /nfs/nfs7/home/huang238/lab11/lab11.srcs/sources_1/new/main.v 
+// I:p (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:p)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+dismissDialog("Define Module"); // I:p (cg:JFrame)
+// [GUI Memory]: 70 MB (+3474kb) [00:02:16]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,123 MB. GUI used memory: 35 MB. Current time: 11/2/17 3:54:56 PM EDT
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 83, 379); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 98, 385); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 77 MB (+3603kb) [00:02:32]
+// [GUI Memory]: 82 MB (+1035kb) [00:04:10]
+// [GUI Memory]: 86 MB (+66kb) [00:11:17]

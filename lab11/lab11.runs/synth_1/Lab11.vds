@@ -1,0 +1,393 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Nov 16 19:35:56 2017
+# Process ID: 19272
+# Current directory: /nfs/nfs7/home/huang238/Lab11/Lab11.runs/synth_1
+# Command line: vivado -log Lab11.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab11.tcl
+# Log file: /nfs/nfs7/home/huang238/Lab11/Lab11.runs/synth_1/Lab11.vds
+# Journal file: /nfs/nfs7/home/huang238/Lab11/Lab11.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Lab11.tcl -notrace
+Command: synth_design -top Lab11 -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19353 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1278.766 ; gain = 75.996 ; free physical = 8139 ; free virtual = 27587
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Lab11' [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:77]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:85]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:93]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:98]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:104]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:109]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:118]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:127]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:134]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:143]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:151]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:160]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:168]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:176]
+INFO: [Synth 8-155] case statement is not full and has no default [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:71]
+WARNING: [Synth 8-3936] Found unconnected internal register 'csr_reg' and it is trimmed from '3' to '2' bits. [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:27]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM 'stack_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Invalid write to RAM. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "stack_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'Lab11' (1#1) [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:6]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[15]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[14]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[13]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[12]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[11]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[10]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[9]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1345.188 ; gain = 142.418 ; free physical = 8125 ; free virtual = 27573
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1345.188 ; gain = 142.418 ; free physical = 8131 ; free virtual = 27579
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/constrs_1/imports/Lab11-vel/main.xdc]
+Finished Parsing XDC File [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/constrs_1/imports/Lab11-vel/main.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/constrs_1/imports/Lab11-vel/main.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Lab11_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Lab11_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.883 ; gain = 0.000 ; free physical = 7829 ; free virtual = 27277
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1743.891 ; gain = 541.121 ; free physical = 7966 ; free virtual = 27414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticpg236-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1743.891 ; gain = 541.121 ; free physical = 7966 ; free virtual = 27414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1743.891 ; gain = 541.121 ; free physical = 7968 ; free virtual = 27416
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_ptr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_ptr" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element bitcnt_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:48]
+WARNING: [Synth 8-6014] Unused sequential element mem_ptr_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:15]
+WARNING: [Synth 8-6014] Unused sequential element q_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:261]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1743.891 ; gain = 541.121 ; free physical = 7931 ; free virtual = 27379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Lab11__GB0    |           1|     40428|
+|2     |Lab11__GB1    |           1|     26682|
+|3     |Lab11__GB2    |           1|      6342|
+|4     |Lab11__GB3    |           1|      8136|
+|5     |Lab11__GB4    |           1|     16355|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 260   
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	  26 Input   2048 Bit        Muxes := 1     
+	   2 Input   2048 Bit        Muxes := 4     
+	  16 Input   2048 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 30    
+	  26 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	  16 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+	  16 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Lab11 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 260   
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	  26 Input   2048 Bit        Muxes := 1     
+	   2 Input   2048 Bit        Muxes := 4     
+	  16 Input   2048 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 30    
+	  26 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	  16 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+	  16 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ret_message" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element mem_ptr_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:15]
+WARNING: [Synth 8-6014] Unused sequential element bitcnt_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:48]
+WARNING: [Synth 8-6014] Unused sequential element q_reg was removed.  [/nfs/nfs7/home/huang238/Lab11/Lab11.srcs/sources_1/imports/Lab11-vel/main.v:261]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[15]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[14]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[13]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[12]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[11]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[10]
+WARNING: [Synth 8-3331] design Lab11 has unconnected port led[9]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 1840.570 ; gain = 637.801 ; free physical = 7792 ; free virtual = 27240
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Lab11__GB0    |           1|      6501|
+|2     |Lab11__GB1    |           1|      3327|
+|3     |Lab11__GB2    |           1|      1031|
+|4     |Lab11__GB3    |           1|      1733|
+|5     |Lab11__GB4    |           1|      4267|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:02 . Memory (MB): peak = 1840.578 ; gain = 637.809 ; free physical = 7673 ; free virtual = 27121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:05 ; elapsed = 00:01:11 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7587 ; free virtual = 27043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Lab11__GB0    |           1|      6501|
+|2     |Lab11__GB1    |           1|      3327|
+|3     |Lab11__GB2    |           1|      1031|
+|4     |Lab11__GB3    |           1|      1733|
+|5     |Lab11__GB4    |           1|      3204|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7748 ; free virtual = 27197
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    37|
+|3     |LUT1   |    37|
+|4     |LUT2   |   100|
+|5     |LUT3   |   132|
+|6     |LUT4   |  2250|
+|7     |LUT5   |   550|
+|8     |LUT6   |  2403|
+|9     |MUXF7  |   517|
+|10    |MUXF8  |   258|
+|11    |FDRE   |  2182|
+|12    |IBUF   |     4|
+|13    |OBUF   |    21|
+|14    |OBUFT  |     7|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  8500|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1931.828 ; gain = 729.059 ; free physical = 7749 ; free virtual = 27197
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:06 ; elapsed = 00:01:12 . Memory (MB): peak = 1931.828 ; gain = 330.363 ; free physical = 7807 ; free virtual = 27255
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:19 . Memory (MB): peak = 1931.836 ; gain = 729.059 ; free physical = 7809 ; free virtual = 27257
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Lab11' is not ideal for floorplanning, since the cellview 'Lab11' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+37 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 1931.836 ; gain = 742.652 ; free physical = 7795 ; free virtual = 27243
+INFO: [Common 17-1381] The checkpoint '/nfs/nfs7/home/huang238/Lab11/Lab11.runs/synth_1/Lab11.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1955.848 ; gain = 0.000 ; free physical = 7798 ; free virtual = 27246
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 19:37:30 2017...

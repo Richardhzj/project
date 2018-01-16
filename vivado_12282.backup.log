@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Nov 13 11:29:21 2017
+# Process ID: 12282
+# Current directory: /nfs/nfs7/home/huang238
+# Command line: vivado
+# Log file: /nfs/nfs7/home/huang238/vivado.log
+# Journal file: /nfs/nfs7/home/huang238/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /nfs/nfs7/home/huang238/lab11/lab11.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov 13 11:31:59 2017] Launched synth_1...
+Run output will be captured here: /nfs/nfs7/home/huang238/lab11/lab11.runs/synth_1/runme.log
+[Mon Nov 13 11:31:59 2017] Launched impl_1...
+Run output will be captured here: /nfs/nfs7/home/huang238/lab11/lab11.runs/impl_1/runme.log
+open_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 11:57:40 2017...

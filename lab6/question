@@ -1,0 +1,4 @@
+1: 2^4*2^4*2
+2:2^16*2^16*2
+3: yes,because we add a finish method to ask the module stop when it find the first case which S not equal to A+B.
+4:S=1100, S1=0100, A=0100, B=0000

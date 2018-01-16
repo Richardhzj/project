@@ -1,0 +1,196 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 6795
+License: Customer
+
+Current time: 	12/7/17 6:47:54 PM EST
+Time zone: 	Eastern Standard Time (America/Indiana/Indianapolis)
+
+OS: Red Hat Enterprise Linux Workstation release 7.4 (Maipo)
+OS Version: 3.10.0-693.11.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1280x1024
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 419 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	huang238
+User home directory: /nfs/nfs7/home/huang238
+User working directory: /nfs/nfs7/home/huang238
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado
+HDI_APPROOT: /l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2
+RDI_DATADIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data
+RDI_BINDIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/bin
+
+User preferences location: /u/huang238/.Xilinx/Vivado
+Vivado preferences directory: /u/huang238/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /nfs/nfs7/home/huang238/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-6795-lh008linux-14.soic.indiana.edu
+
+GUI allocated memory:	167 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,906 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 55 MB (+55108kb) [00:00:09]
+// [Engine Memory]: 4,906 MB (+4992776kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,916 MB. GUI used memory: 28 MB. Current time: 12/7/17 6:47:56 PM EST
+// [GUI Memory]: 59 MB (+1674kb) [00:22:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,922 MB. GUI used memory: 26 MB. Current time: 12/7/17 7:17:56 PM EST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/nfs/nfs7/home/huang238/Lab11/Lab11.xpr");
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /nfs/nfs7/home/huang238/Lab11/Lab11.xpr. Version: Vivado v2017.2 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,978 MB. GUI used memory: 29 MB. Current time: 12/7/17 7:37:56 PM EST
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /nfs/nfs7/home/huang238/Lab11/Lab11.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nfs/nfs7/home/huang238/Lab11/Lab11.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+1174kb) [00:50:18]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'. 
+// Project name: Lab11; location: /nfs/nfs7/home/huang238/Lab11; part: xc7a35ticpg236-1L
+// 'i' command handler elapsed time: 10 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 6099.367 ; gain = 45.617 ; free physical = 12647 ; free virtual = 30096 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 67 MB (+449kb) [00:50:22]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (main.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab11 (main.v)]", 1, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab11 (main.v)]", 1, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// [GUI Memory]: 73 MB (+2517kb) [00:50:28]
+// Elapsed time: 104 seconds
+selectCodeEditor("main.v", 282, 217); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 169, 268); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 316, 228); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 155 seconds
+selectCodeEditor("main.v", 285, 152); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 77 MB (+517kb) [00:57:20]
+// Elapsed time: 408 seconds
+selectCodeEditor("main.v", 104, 398); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 137, 357); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 137, 357, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 116, 355); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 136, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 136, 345, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 145, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 145, 345, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 223 seconds
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 81 MB (+249kb) [01:06:46]
+// [GUI Memory]: 86 MB (+860kb) [01:12:31]
+// Elapsed time: 741 seconds
+selectCodeEditor("main.v", 189, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("main.v", 243, 212); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 236, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 236, 205, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 217, 195); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 36 MB. Current time: 12/7/17 8:08:01 PM EST
+// Elapsed time: 286 seconds
+selectCodeEditor("main.v", 79, 368); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 294 seconds
+selectCodeEditor("main.v", 184, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 183, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 183, 174, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 152, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 152, 200, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 152, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 160, 239); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 161, 246); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 161, 246, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 162, 215); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 90 MB (+122kb) [01:34:10]
+// Elapsed time: 1224 seconds
+selectCodeEditor("main.v", 525, 247, false, false, false, true, false); // bI:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 35 MB. Current time: 12/7/17 8:38:01 PM EST
+// Elapsed time: 761 seconds
+selectCodeEditor("main.v", 281, 414); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 280, 412, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 286, 361); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 304, 318); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 68 seconds
+selectCodeEditor("main.v", 213, 183); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 245, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 253, 291); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 252, 292, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 329, 313); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 329, 313, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 320, 300); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 318, 300, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 291, 293); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 291, 293, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 278, 289); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 181, 286); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 181, 286, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 111, 243); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 124, 220); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 235, 233); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 235, 232, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 235, 232); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 111, 284); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 125, 265); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 135, 262); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 136, 262, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 126, 67); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 126, 67, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 452 seconds
+selectCodeEditor("main.v", 268, 212); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 132, 39); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 126, 46); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 131, 159); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 175, 128); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 175, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 173, 199); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 149, 185); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 135, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 143, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 137, 183); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("main.v", 261, 197); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 194, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 132, 278); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 128, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 146, 220); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 146, 220, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 160, 218); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 160, 218, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 322, 346); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 287, 232); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 137 seconds
+selectCodeEditor("main.v", 266, 311); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("main.v", 219, 387); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 230, 331); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 35 MB. Current time: 12/7/17 9:08:01 PM EST

@@ -1,0 +1,9 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x923da9) [0x7fa1d16d1da9]
+/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7fa1d16d83f6]
+/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x9209d3) [0x7fa1d16ce9d3]
+/lib64/libc.so.6(+0x35270) [0x7fa210f2e270]
+[0x76a0580]

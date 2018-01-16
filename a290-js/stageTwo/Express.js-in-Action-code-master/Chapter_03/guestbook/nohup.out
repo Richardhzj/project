@@ -1,0 +1,25 @@
+
+> express-guestbook@ start /nfs/nfs4/home/huang238/a290-js/stageTwo/Express.js-in-Action-code-master/Chapter_03/guestbook
+> node app
+
+Guestbook app started.
+[0mGET / [32m200 [0m21.008 ms - 417[0m
+[0mGET /favicon.ico [33m404 [0m3.304 ms - 397[0m
+[0mGET /new-entry [32m200 [0m2.522 ms - 954[0m
+[0mPOST /new-entry [36m302 [0m30.387 ms - 46[0m
+[0mGET / [32m200 [0m2.522 ms - 692[0m
+[0mGET / [32m200 [0m2.785 ms - 692[0m
+[0mGET /favicon.ico [33m404 [0m2.329 ms - 397[0m
+[0mGET /new-entry [32m200 [0m2.071 ms - 954[0m
+[0mPOST /new-entry [36m302 [0m1.610 ms - 46[0m
+[0mGET / [32m200 [0m1.448 ms - 976[0m
+[0mGET /new-entry [32m200 [0m3.834 ms - 954[0m
+[0mPOST /new-entry [36m302 [0m0.557 ms - 46[0m
+[0mGET / [32m200 [0m5.228 ms - 1272[0m
+[0mGET / [36m304 [0m2.419 ms - -[0m
+[0mGET / [36m304 [0m2.309 ms - -[0m
+[0mGET / [36m304 [0m1.501 ms - -[0m
+[0mGET /new-entry [32m200 [0m1.539 ms - 954[0m
+[0mPOST /new-entry [36m302 [0m1.258 ms - 46[0m
+[0mGET / [32m200 [0m5.633 ms - 1554[0m
+[0mGET / [32m200 [0m1.855 ms - 1554[0m

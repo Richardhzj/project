@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Dec  7 18:47:26 2017
+# Process ID: 6795
+# Current directory: /nfs/nfs7/home/huang238
+# Command line: vivado
+# Log file: /nfs/nfs7/home/huang238/vivado.log
+# Journal file: /nfs/nfs7/home/huang238/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /nfs/nfs7/home/huang238/Lab11/Lab11.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 6099.367 ; gain = 45.617 ; free physical = 12647 ; free virtual = 30096
+update_compile_order -fileset sources_1

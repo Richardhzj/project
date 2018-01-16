@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/huang238/4_to_1_mult/4_to_1_mult.srcs/sources_1/new/4_to_1_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-2458] undeclared symbol w0, assumed default net type wire [/nfs/nfs7/home/huang238/4_to_1_mult/4_to_1_mult.srcs/sources_1/new/4_to_1_mult.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/huang238/4_to_1_mult/4_to_1_mult.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/huang238/4_to_1_mult/4_to_1_mult.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

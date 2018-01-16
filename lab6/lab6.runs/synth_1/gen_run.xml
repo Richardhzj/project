@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1506031370">
+  <File Type="RDS-UTIL" Name="hierarchical_fulladder_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="hierarchical_fulladder_drc_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="hierarchical_fulladder_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="hierarchical_fulladder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="hierarchical_fulladder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="hierarchical_fulladder_timing_summary_synth.pb"/>
+  <File Type="RDS-RDS" Name="hierarchical_fulladder.vds"/>
+  <File Type="PA-TCL" Name="hierarchical_fulladder.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fulladder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fulladder/fulladder.srcs/sources_1/new/fulladder.v"/>
+        <Attr Name="ImportTime" Val="1507239573"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="hierarchical_fulladder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/fulladder.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fulladder/fulladder.srcs/constrs_1/new/fulladder.xdc"/>
+        <Attr Name="ImportTime" Val="1506030880"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,40 @@
+[Wed Nov 30 22:28:59 2016] [notice] Apache/2.2.2 (Unix) configured -- resuming normal operations
+[Wed Nov 30 22:44:42 2016] [error] [client 149.160.249.222] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Wed Nov 30 22:55:38 2016] [error] [client 149.160.249.222] File does not exist: /u/huang238/a290-js/apache/htdocs/protected, referer: http://silo.cs.indiana.edu:27152/
+[Wed Nov 30 22:55:42 2016] [error] [client 149.160.249.222] script not found or unable to stat: /u/huang238/a290-js/apache/cgi-bin/0125.py, referer: http://silo.cs.indiana.edu:27152/
+[Thu Dec 01 13:19:12 2016] [error] [client 149.160.246.205] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Thu Dec 01 13:19:28 2016] [error] [client 149.160.246.205] File does not exist: /u/huang238/a290-js/apache/htdocs/one.php, referer: http://silo.cs.indiana.edu:27152/
+[Thu Dec 01 13:23:59 2016] [error] [client 149.161.149.132] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico
+[Thu Dec 01 13:23:59 2016] [error] [client 149.161.149.132] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico
+[Thu Dec 01 14:11:37 2016] [error] [client 149.160.250.50] File does not exist: /u/huang238/a290-js/apache/htdocs/protected, referer: http://silo.cs.indiana.edu:27152/
+[Thu Dec 01 19:23:47 2016] [error] [client 156.56.103.215] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Thu Dec 08 14:03:09 2016] [notice] caught SIGTERM, shutting down
+[Fri Dec 09 18:57:46 2016] [notice] Apache/2.2.2 (Unix) configured -- resuming normal operations
+[Fri Dec 09 18:57:53 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:03:24 2016] [error] [client 140.182.253.92] script not found or unable to stat: /u/huang238/a290-js/apache/cgi-bin/0125.py, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:03:26 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/one.php, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:03:29 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/two.php, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:04:55 2016] [notice] SIGHUP received.  Attempting to restart
+[Fri Dec 09 19:04:55 2016] [notice] Apache/2.2.2 (Unix) configured -- resuming normal operations
+[Fri Dec 09 19:08:52 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/~, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:18:15 2016] [error] [client 140.182.253.92] script not found or unable to stat: /u/huang238/a290-js/apache/cgi-bin/0125.py, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:18:18 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/one.php, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 09 19:18:20 2016] [error] [client 140.182.253.92] File does not exist: /u/huang238/a290-js/apache/htdocs/two.php, referer: http://silo.cs.indiana.edu:27152/
+[Sat Dec 10 14:11:00 2016] [error] [client 149.160.167.165] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 03:39:17 2016] [error] [client 68.68.88.3] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 08:34:42 2016] [error] [client 68.45.19.9] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 16:06:13 2016] [error] [client 149.160.147.75] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 16:30:48 2016] [error] [client 156.56.154.6] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 21:03:31 2016] [error] [client 73.146.236.148] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 21:12:25 2016] [error] [client 149.160.167.165] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 21:50:52 2016] [error] [client 129.79.38.203] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Tue Dec 13 23:02:08 2016] [error] [client 99.137.48.193] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Wed Dec 14 18:43:12 2016] [error] [client 68.45.19.9] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Wed Dec 14 20:16:26 2016] [error] [client 68.45.51.52] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 09:37:56 2016] [error] [client 129.79.241.207] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 09:49:09 2016] [error] [client 149.160.250.91] user huang238: authentication failure for "/protected/final.html": Password Mismatch, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 09:49:16 2016] [error] [client 149.160.250.91] user huang238: authentication failure for "/protected/final.html": Password Mismatch, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 09:49:22 2016] [error] [client 149.160.250.91] user huang238: authentication failure for "/protected/final.html": Password Mismatch, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 13:09:46 2016] [error] [client 149.160.250.91] user huang238: authentication failure for "/protected/final.html": Password Mismatch, referer: http://silo.cs.indiana.edu:27152/
+[Fri Dec 16 13:25:06 2016] [error] [client 129.79.241.207] File does not exist: /u/huang238/a290-js/apache/htdocs/favicon.ico, referer: http://silo.cs.indiana.edu:27152/
+[Wed Dec 28 07:00:02 2016] [notice] caught SIGTERM, shutting down

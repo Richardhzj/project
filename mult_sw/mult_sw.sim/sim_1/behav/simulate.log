@@ -1,0 +1,8 @@
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+                   0 s0 = 0, s1 = 0, s2 = 0, s3 = 0, light = 0
+                  10 s0 = 1, s1 = 0, s2 = 0, s3 = 0, light = 1
+                  20 s0 = 1, s1 = 1, s2 = 0, s3 = 0, light = 0
+                  30 s0 = 1, s1 = 1, s2 = 1, s3 = 0, light = 1
+                  40 s0 = 1, s1 = 1, s2 = 1, s3 = 1, light = 0
+$finish called at time : 50 ns : File "/nfs/nfs7/home/huang238/mult_sw/mult_sw.srcs/sim_1/new/sim.v" Line 35

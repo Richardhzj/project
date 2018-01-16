@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Sep 21 17:04:26 2017
+# Process ID: 27561
+# Current directory: /nfs/nfs7/home/huang238
+# Command line: wbtcv -mode batch -source /nfs/nfs7/home/huang238/dec_2_4/dec_2_4.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /nfs/nfs7/home/huang238/webtalk.log
+# Journal file: /nfs/nfs7/home/huang238/webtalk.jou
+#-----------------------------------------------------------
+source /nfs/nfs7/home/huang238/dec_2_4/dec_2_4.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/nfs/nfs7/home/huang238/dec_2_4/dec_2_4.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Sep 21 17:04:27 2017. For additional details about this file, please refer to the WebTalk help file at /l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 21 17:04:27 2017...

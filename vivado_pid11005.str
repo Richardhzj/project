@@ -1,0 +1,118 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 11005
+License: Customer
+
+Current time: 	12/7/17 4:15:59 PM EST
+Time zone: 	Eastern Standard Time (America/Indiana/Indianapolis)
+
+OS: Red Hat Enterprise Linux Server release 7.4 (Maipo)
+OS Version: 3.10.0-693.11.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 699 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	huang238
+User home directory: /nfs/nfs7/home/huang238
+User working directory: /nfs/nfs7/home/huang238
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado
+HDI_APPROOT: /l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2
+RDI_DATADIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data
+RDI_BINDIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/bin
+
+User preferences location: /u/huang238/.Xilinx/Vivado
+Vivado preferences directory: /u/huang238/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /nfs/nfs7/home/huang238/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-11005-lab009h11.soic.indiana.edu
+
+GUI allocated memory:	166 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,919 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 57 MB (+57652kb) [00:00:08]
+// [Engine Memory]: 4,919 MB (+5006502kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,929 MB. GUI used memory: 28 MB. Current time: 12/7/17 4:16:01 PM EST
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 60 MB (+272kb) [00:02:03]
+// g:g (cg:JFrame): New Project: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 3 seconds
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,037 MB. GUI used memory: 30 MB. Current time: 12/7/17 4:17:57 PM EST
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 15 seconds
+setFileChooser("/nfs/nfs7/home/huang238/Lab11/Lab11.xpr");
+// Opening Vivado Project: /nfs/nfs7/home/huang238/Lab11/Lab11.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nfs/nfs7/home/huang238/Lab11/Lab11.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,068 MB. GUI used memory: 37 MB. Current time: 12/7/17 4:18:18 PM EST
+// Project name: Lab11; location: /nfs/nfs7/home/huang238/Lab11; part: xc7a35ticpg236-1L
+// 'i' command handler elapsed time: 20 seconds
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 69 MB (+5534kb) [00:02:30]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab11 (main.v)]", 1, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab11 (main.v)]", 1, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 367, 266); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 74 MB (+1513kb) [00:03:30]
+// [GUI Memory]: 79 MB (+1575kb) [00:06:55]
+// [GUI Memory]: 83 MB (+145kb) [00:12:49]
+// [GUI Memory]: 88 MB (+961kb) [00:21:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,093 MB. GUI used memory: 38 MB. Current time: 12/7/17 4:48:22 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,093 MB. GUI used memory: 37 MB. Current time: 12/7/17 5:18:22 PM EST
+// [GUI Memory]: 93 MB (+6kb) [01:17:14]
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 4824 seconds
+selectCodeEditor("main.v", 200, 511, false, false, true, false, false); // bI:J (JPanel:JComponent, cg:JFrame) - Alt Key
+selectCodeEditor("main.v", 200, 511); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 184, 530); // bI:J (JPanel:JComponent, cg:JFrame)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.

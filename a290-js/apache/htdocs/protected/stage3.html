@@ -1,0 +1,98 @@
+1. What is encapsulation and how is this accomplished in javascript?
+
+ 2. Why does the platform game not worry about encapsulation in general?
+First, encapsulation takes extra effort. Second, the various elements in this game are so closely tied together that if the behavior of one of them changed, it is unlikely that any of the others would be able to stay the same.
+ 3. Why was the drawing code encapsulated?
+Because by putting the drawing behind an interface, we can simply load the same game program there and plug in a new display module.
+ 4. Why are horizontal and vertical collisions handled separately?
+
+ 5. Up and down arrow keys usually scroll web pages, why doesn't this happen while playing your platform game?
+
+ 6. What is asynchronous programming?
+The function argument is used to arrange things to happen at some time in the future, and neither of the functions returns anything useful. Their task is, in a way, to schedule actions. Wrapping these actions in functions gives us a way to store them as a value so that they can be called at the right moment.
+ 7. How is the platform game an example of asynchronous programming?
+
+ 8. Why is maxStep being limited? Why not a maxStep of inifinity?
+
+ 9. Why is the position of the player set to be a half square above the @ symbol?
+Because a player is one-and-a-half squares high, then in this way, its bottom aligns with the bottom of the square it appeared in.
+10. Why doesn't the Level() function check for invalid input?
+For brevity, it doesn’t check for malformed input. It assumes that you’ve given it a proper level plan, complete with a player start position and other essentials
+11. Why is scale set to 20? What would happen if we didn't scale our game at all?
+The scale variable gives the number of pixels that a single unit takes up on the screen.
+12. Coin's don't have any methods that are activated upon a collision, how does the player pick them up?
+When a motion causes the player to hit something, the level’s playerTouched method, which handles things like dying in lava and collecting coins, is called. Otherwise, the object updates its position.
+
+
+
+
+
+Questions from Bo:
+
+ 1. What is long-polling and why is it important for our skill sharing website?
+Long polling is a technique where clients continuously ask the server for new information using regular HTTP requests, and the server simply stalls its answer when it has nothing new to report. As long as the client makes sure it constantly has a polling request open, it will receive information from the server immediately. 
+ 2. Why do long-polling requests have a maximum time set?
+To prevent connections from timing out
+ 3. What access controls were added to our skill sharing website? Why?
+put the system behind a reverse proxy, which is an HTTP server that accepts connections from outside the system and forwards them to HTTP servers that are running locally. 
+ 4. What is one change you could have made to your skill sharing site to make it more secure?
+a proxy can be configured to require a username and password, and you could make sure only the participants in the skill-sharing group have this password.
+ 5. In the context of our skill sharing server, what is a router?
+A router is a component that helps dispatch a request to the function that can handle it. 
+ 6. What is an html template and why do we use one?
+An HTML template is a folder that contains a template file that ScreenSteps will parse and use to format lesson and manual output when using the Export to HTMLfeature. In addition the folder can contain any number of supporting files or folders.
+
+•Loading all data from the server especially in rich list displays
+•Adding or updating new items in lists
+•Anywhere you need to add new complex content to the page
+•Anything that requires client side HTML rendering
+
+ 7. What is npm used for?
+When a request matches none of the request types defined in our router, the server must interpret it as a request for a file in the public directory. but we neither need nor want to support PUT and DELETE requests on files, and we would like to have advanced features such as support for caching. So let’s use a solid, well-tested static file server from NPM instead.
+ 8. Where does the server-side code run? Where does the client-side code run?
+Node.js   Finally, the HTML document includes the script file that contains the client-side code.
+ 9. The waitForChange() function runs client side and watches for updates from the server. What does this function do with errors and why?
+If it returns an empty array, the server does not yet have anything to send back to the client, so it stores the response object (using waitForChanges) to be responded to at a later time.
+10. The client-side code initializes long-polling with a request() function, what does this function do with errors and why?
+
+11. How do the html, css, and js files know where to find each other?
+
+12. A time might be represented as: 1405438911833. What does this number mean?
+The time must be indicated as the number of milliseconds elapsed since the start of 1970, To ensure that it receives all updates and doesn’t receive the same update more than once, the client must pass the time at which it last received information from the server. 
+Questions from Santiago: 
+            
+ 1) What languages and software's does the skill sharing web app use.
+    javascript
+ 2) What are GET and POST request methods used for? Give an example implementation of each
+    return a JSON document. Add a comment to a talk
+{"serverTime": 1405438911833,
+ "talks": [{"title": "Unituning",
+            "presenter": "Carlos",
+            "summary": "Modifying your cycle for extra style",
+            "comment": []}]}
+
+POST /talks/Unituning/comments HTTP/1.1
+Content-Type: application/json
+Content-Length: 72
+
+{"author": "Alice",
+ "message": "Will you talk about raising a cycle?"}
+
+ 3) Describe what a router is, and its function in web development
+    A router is a component that helps dispatch a request to the function that can handle it. 
+ 4)Describe a client side and server side interaction example, give specific details to what kind of functionalities need to be implemented to achieve proper routing.
+ 
+ 5) Describe how an http request allows the flow of information.
+    an HTTP request allows only a simple flow of information, where the client sends a request, the server comes back with a single response, and that is it. 
+ 6)What  3 elements does the client side of a dynamic web page have to have (as seen in chapter 21 and int the scope of this course) 
+    
+ 7)What is long Polling in the context of this book. 
+        Long polling is a technique where clients continuously ask the server for new information using regular HTTP requests, and the server simply stalls its answer when it has nothing new to report. As long as the client makes sure it constantly has a polling request open, it will receive information from the server immediately. 
+
+ 8)Define Client and server in detail.(if possible in the context of chapter 21) 
+     A client is a computer that retrieves information from or uses resources provided by the server or main computer. Many corporate networks are comprised of a client computer at each of the employees' desks. Each client connects to a central server or mainframethat allows processing to be done on the client side instead of the server side and reduces the processing requirements of the server.
+
+a server is an instanceof a computer program that accepts and responds to requests made by another program, known as a client. Less formally, any device that runs server software could be considered a server as well. Servers are used to manage network resources. For example, a user may setup a server to control access to a network, send/receive e-mail, manage print jobs, or host a website.
+ 9)What do you think are the 3 most important things you learned from chapter 21/or the whole book?
+    long polling npm router
+

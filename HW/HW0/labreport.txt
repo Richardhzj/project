@@ -1,0 +1,5 @@
+Name: Zhengjia Huang
+Username: huang238
+Results: I finished all the work except the Icebreaker one. Because we were not in the lab at that day and didn't find the partner.
+No difficulties arose in the lab1. I have set up github in C291 so it's not hard for me.
+I learnt how the use the sleep function to do the second delay.

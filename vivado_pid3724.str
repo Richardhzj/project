@@ -1,0 +1,356 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 3724
+License: Customer
+
+Current time: 	10/19/17 3:24:03 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Red Hat Enterprise Linux Workstation release 7.4 (Maipo)
+OS Version: 3.10.0-693.2.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 175 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/lnx64.o:/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	huang238
+User home directory: /nfs/nfs7/home/huang238
+User working directory: /nfs/nfs7/home/huang238
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado
+HDI_APPROOT: /l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2
+RDI_DATADIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data
+RDI_BINDIR: /nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/bin
+
+User preferences location: /u/huang238/.Xilinx/Vivado
+Vivado preferences directory: /u/huang238/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /nfs/nfs7/home/huang238/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/nfs/nfs5-insecure/home/insecure-ro/software/rhel7_x86_64/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-3724-basalt.soic.indiana.edu
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,926 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 54 MB (+54087kb) [00:00:06]
+// [Engine Memory]: 4,926 MB (+5013686kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,936 MB. GUI used memory: 27 MB. Current time: 10/19/17 3:24:05 PM EDT
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 58 MB (+1706kb) [00:00:24]
+// g:g (cg:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,032 MB. GUI used memory: 29 MB. Current time: 10/19/17 3:24:21 PM EDT
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 3 seconds
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// Elapsed time: 21 seconds
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// g:g (cg:JFrame): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Lab8", true); // X:JTextField (JPanel:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// [GUI Memory]: 65 MB (+3781kb) [00:01:01]
+// Elapsed time: 23 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// Elapsed time: 36 seconds
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", "xc7a35ticpg236-1L"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7a35ticpg236-1L ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; -40 ; 100 ; 100 ; I ; 0.92 ; 0.92 ; 0.98", 0, "xc7a35ticpg236-1L", 0); // ah:r (JViewport:JComponent, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7a35ticpg236-1L ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; -40 ; 100 ; 100 ; I ; 0.92 ; 0.92 ; 0.98", 0, "xc7a35ticpg236-1L", 0, false, false, false, false, true); // ah:r (JViewport:JComponent, g:g) - Double Click
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project Lab8 /nfs/nfs7/home/huang238/Lab8 -part xc7a35ticpg236-1L 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 68 MB (+52kb) [00:02:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 73 MB (+1028kb) [00:02:06]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/l/Xilinx_Vivado_SDK_2017.2_0616_1/Vivado/2017.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 78 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,068 MB. GUI used memory: 35 MB. Current time: 10/19/17 3:26:05 PM EDT
+// Elapsed time: 122 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:M (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:M (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B:JideButton (f:CommandBar, c:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ac:JMenuItem (ai:JPopupMenu, c:g)
+// F:p (c:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "main"); // X:JTextField (JPanel:JComponent, F:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:p)
+// Tcl Command: 'file mkdir /nfs/nfs7/home/huang238/Lab8/Lab8.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F:p (c:g)
+// Tcl Message: file mkdir /nfs/nfs7/home/huang238/Lab8/Lab8.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// Tcl Message: close [ open /nfs/nfs7/home/huang238/Lab8/Lab8.srcs/sources_1/new/main.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /nfs/nfs7/home/huang238/Lab8/Lab8.srcs/sources_1/new/main.v 
+// I:p (cg:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:p)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+dismissDialog("Define Module"); // I:p (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,119 MB. GUI used memory: 37 MB. Current time: 10/19/17 3:28:30 PM EDT
+// [GUI Memory]: 79 MB (+3042kb) [00:04:35]
+// Elapsed time: 18 seconds
+selectCodeEditor("main.v", 32, 409); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 73, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 86, 387); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 262, 502); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("main.v", 331, 486); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 331, 509); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 3, 503); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 561, 509); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 187, 514); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 83 MB (+344kb) [00:06:19]
+// Elapsed time: 58 seconds
+selectCodeEditor("main.v", 8, 405); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 7, 398); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton("RDIResource.HInputHandler_UNICODE_QUOTES_DOUBLE_QUOTES_OR_DASHES_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+typeControlKey(null, null, 'z');
+// Elapsed time: 17 seconds
+selectCodeEditor("main.v", 106, 398); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 114, 379); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 119, 360); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 6, 507); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton("RDIResource.HInputHandler_UNICODE_QUOTES_DOUBLE_QUOTES_OR_DASHES_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectCodeEditor("main.v", 35, 501); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 7, 336); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 90 MB (+2031kb) [00:07:48]
+// Elapsed time: 23 seconds
+selectCodeEditor("main.v", 102, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("main.v", 42, 523); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 103, 334); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 140, 389); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 130, 407); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 68, 439); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 114, 402); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 63, 424); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 60, 433); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 23, 134); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 83, 537); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 152, 197); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 135, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 102, 176); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 97, 175); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 99, 178, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 99, 183); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("main.v", 116, 433); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 108, 341); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 94, 415); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 79, 395); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 95 MB (+483kb) [00:09:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,130 MB. GUI used memory: 38 MB. Current time: 10/19/17 3:58:30 PM EDT
+// Elapsed time: 1698 seconds
+selectCodeEditor("main.v", 93, 369); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 100 seconds
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 26 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 27 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("main.v", 310, 449); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 302, 460); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 55 seconds
+selectCodeEditor("main.v", 417, 489); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 444, 485); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("main.v", 416, 491); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 422, 521); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 431, 505); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 152, 486); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("main.v", 545, 478); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 488, 503); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 100 seconds
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 140, 475); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 134, 461); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("main.v", 214, 451); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 692 seconds
+selectCodeEditor("main.v", 125, 300); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 252, 331); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 330, 347); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 273, 336); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 425, 358); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 562, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 629, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 183, 371); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("main.v", 556, 385); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 87, 234); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 88, 233, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("main.v", 113, 216); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 117 seconds
+selectCodeEditor("main.v", 245, 366); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 479, 233); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 308, 132); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 98 seconds
+selectCodeEditor("main.v", 303, 351); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,132 MB. GUI used memory: 36 MB. Current time: 10/19/17 4:28:30 PM EDT
+// Elapsed time: 262 seconds
+selectCodeEditor("main.v", 287, 292); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 139, 415); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 154, 415); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("main.v", 273, 436); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 202, 434); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 201, 415); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 214 seconds
+selectCodeEditor("main.v", 161, 411); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("main.v", 172, 392); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 186, 413); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 203, 431); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 153 seconds
+selectCodeEditor("main.v", 168, 536); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("main.v", 189, 430); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("main.v", 231, 548); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("main.v", 176, 324); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 217, 353); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 120, 387); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 178 seconds
+selectCodeEditor("main.v", 88, 558); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("main.v", 46, 137); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 107 seconds
+selectCodeEditor("main.v", 421, 185); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 82 seconds
+typeControlKey((HResource) null, "main.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "main.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 220 seconds
+selectCodeEditor("main.v", 291, 568); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 195, 496); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 171, 327); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 228, 244); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("main.v", 287, 212); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 146, 275); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 208, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 216, 371); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 54 seconds
+selectCodeEditor("main.v", 84, 525); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 255 seconds
+selectCodeEditor("main.v", 256, 434); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 223, 417); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 192, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 160, 338); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("main.v", 88, 340); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,132 MB. GUI used memory: 36 MB. Current time: 10/19/17 4:58:30 PM EDT
+// Elapsed time: 229 seconds
+selectCodeEditor("main.v", 352, 296); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main.v", 500, 176); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,148 MB. GUI used memory: 36 MB. Current time: 10/19/17 5:00:10 PM EDT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
